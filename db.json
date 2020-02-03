@@ -1,0 +1,34 @@
+{
+  "order": [
+    {
+      "id": 1,
+      "name": "t-shirt",
+      "color": "red"
+    },
+    {
+      "id": 2,
+      "name": "pants",
+      "color": "yellow"
+    },
+    {
+      "id": 3,
+      "name": "hat",
+      "color": "blue"
+    },
+    {
+      "name": "meow",
+      "color": "orange",
+      "id": 4
+    },
+    {
+      "name": "meow",
+      "color": "aqua",
+      "id": 5
+    },
+    {
+      "name": "ten",
+      "color": "red",
+      "id": 6
+    }
+  ]
+}

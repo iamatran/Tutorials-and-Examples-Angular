@@ -1,0 +1,31 @@
+<form [formGroup]="myForm">
+
+   <pre> {{ myForm.value | json }} </pre>
+
+    <hr>
+
+    <br/> <h2>To grab the value from the input, we must add formControlName to the input an put the entire thing within a form tag with a formgroup
+    <br/> The Formgroup must be initialized in the typescript</h2>
+
+    <br/>
+    <mat-form-field>
+        <input matInput placeholder="email" formControlName="email">
+    </mat-form-field>
+
+    <br/>
+    <mat-form-field>
+        <input matInput placeholder="your message" formControlName="message">
+    </mat-form-field>
+    
+    <br/>
+    <mat-form-field>
+        <mat-label>Cars</mat-label>
+        <select matNativeControl required formControlName="cars">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+        </select>
+      </mat-form-field>
+
+</form>

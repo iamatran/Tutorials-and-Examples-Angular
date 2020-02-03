@@ -1,0 +1,6 @@
+@using Creating_A_REST_Webservice_With_CSharp_and_VS.Areas.HelpPage.ModelDescriptions
+@model CollectionModelDescription
+@if (Model.ElementDescription is ComplexTypeModelDescription)
+{
+    @Html.DisplayFor(m => m.ElementDescription)
+}

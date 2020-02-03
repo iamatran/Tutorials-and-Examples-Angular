@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creating A REST Webservice With CSharp and VS", "Creating A REST Webservice With CSharp and VS\Creating A REST Webservice With CSharp and VS.csproj", "{228F80D5-BA56-43D1-8002-5589719A371C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creating A REST Webservice With CSharp and VS.Tests", "Creating A REST Webservice With CSharp and VS.Tests\Creating A REST Webservice With CSharp and VS.Tests.csproj", "{BAE19138-1D2E-42A9-9FD5-24F7BCA3572E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{228F80D5-BA56-43D1-8002-5589719A371C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{228F80D5-BA56-43D1-8002-5589719A371C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{228F80D5-BA56-43D1-8002-5589719A371C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{228F80D5-BA56-43D1-8002-5589719A371C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAE19138-1D2E-42A9-9FD5-24F7BCA3572E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAE19138-1D2E-42A9-9FD5-24F7BCA3572E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAE19138-1D2E-42A9-9FD5-24F7BCA3572E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAE19138-1D2E-42A9-9FD5-24F7BCA3572E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AD2B53F-6012-404A-8F3F-E0D5DCDE73BB}
+	EndGlobalSection
+EndGlobal
